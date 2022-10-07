@@ -1,0 +1,18 @@
+.crear-cliente {
+    width: 150px;
+    height: 40px;
+
+}
+
+.contenido {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cliente {
+    font-size: 24px;
+    border: 2px solid rgb(3, 3, 56);
+    padding: 25px;
+}

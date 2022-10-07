@@ -1,0 +1,13 @@
+.success {
+    background-color: #0b7c0b8a;
+    color: #ffe4c4;
+    padding: 25px 40px;
+    width: 50%;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
