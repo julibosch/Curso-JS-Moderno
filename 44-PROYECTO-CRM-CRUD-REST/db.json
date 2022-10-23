@@ -1,11 +1,25 @@
 {
   "clientes": [
     {
-      "nombre": "Juan NUEVO!",
-      "email": "correo2@correo.com",
-      "telefono": "12",
-      "empresa": "12212",
-      "id": 26
+      "nombre": "Pepe Argento",
+      "email": "pepito@gmail.com",
+      "telefono": "35648978",
+      "empresa": "Pepitos SA.",
+      "id": 1
+    },
+    {
+      "nombre": "Julian Bosch",
+      "email": "julibosch99@gmail.com",
+      "telefono": "3465408761",
+      "empresa": "FeltFort",
+      "id": 2
+    },
+    {
+      "nombre": "eeeeee",
+      "email": "a@a.com",
+      "telefono": "12341231",
+      "empresa": "eeasda",
+      "id": 3
     }
   ]
 }
