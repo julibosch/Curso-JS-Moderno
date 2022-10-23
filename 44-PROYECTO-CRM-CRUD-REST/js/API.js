@@ -55,9 +55,9 @@ export const obtenerRegistro = async id => {
 }
 
 // Confirmar la edicion de un cliente
-export const confirmarEditar = async (id, clienteEditado) => {
+export const confirmarEditar = async (clienteEditado) => {
     try {
-        await fetch(`${url}/${id}`, {
+        await fetch(`${url}/${clienteEditado.idCliente}`, {
             method: 'PUT',
             body: JSON.stringify(clienteEditado),
             headers: {

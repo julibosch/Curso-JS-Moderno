@@ -31,12 +31,12 @@ export function editarCliente(e) {
     const telefono =document.querySelector('#telefono').value;
     const empresa =document.querySelector('#empresa').value;
 
-    const clienteEditado = {nombre, email, telefono, empresa};
+    const clienteEditado = {nombre, email, telefono, empresa, idCliente};
 
     if(validar(clienteEditado)) {
         mostrarMensaje('Todos los campos son obligatorios', 'error');
     } else {
-        confirmarEditar(idCliente, clienteEditado);
+        confirmarEditar(clienteEditado);
     }
 
 }
